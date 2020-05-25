@@ -27,7 +27,7 @@ namespace WebApp.Controllers
             {
                 while (!cancellationToken.IsCancellationRequested)
                 {
-                    var payload = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss:ffff") + "\n";
+                    var payload = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss:ffff") + "\n\n";
                     await Response.WriteAsync(payload, cancellationToken);
                     await Response.Body.FlushAsync(cancellationToken);
 
