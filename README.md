@@ -1,1 +1,1 @@
-# 330-webapp-and-server-sent-events
+# 330-Webapp and Server-sent Events
